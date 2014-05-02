@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>biz.hahamo.dev.katas</groupId>
+	<artifactId>rockpaperscissors</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>Rock Paper Scissors game</name>
+	<description>Simple game for evaluating a Rock-Paper-Scissors(-Lizard-Spock) game</description>
+
+	<url>http://hahamo.wordpress.com/category/software-development/katas/</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.7</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>
